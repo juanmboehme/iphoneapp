@@ -1,0 +1,66 @@
+/* Custom Style */
+#jqt .toolbar > h1 {
+    position: absolute;
+    overflow: hidden;
+    left: 1%;
+    top: 10px;
+    line-height: 1em;
+    margin: 1px 0 0 0px;
+    height: 40px;
+    font-size: 20px;
+    width: 250px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,1) 0 -1px 1px;
+    text-align: center;
+    text-overflow: ellipsis;
+   /*white-space: nowrap;*/
+    color: #fff;
+}
+ #jqt.landscape .toolbar > h1 {
+    margin-left: 0px;
+    width: 250px;
+}
+  #jqt ul {
+    color: #aaa;
+    border: 1px solid #333333;
+    font: bold 14px "Helvetica Neue", Helvetica;
+    padding: 0;
+    margin: 15px 10px 17px 10px;
+  }
+  img{
+    float: left;
+    margin-right: 6px;
+    width:10%;
+  }
+  .big{
+    float: center;
+    width:80%;
+  }
+  #jqt ul li small.counter {
+    margin-top: -24px;
+    font-size: 12px;
+  }
+  #jqt ul li .description {
+    font-size: 10px;
+  }
+  #jqt ul li otro {
+    font-size: 12px;
+  }
+  #jqt ul li.forward {
+     white-space:normal;
+     font-size: 12px;
+     text-overflow: ellipsis-word;
+     overflow: auto;
+  }
+  #jqt.fullscreen #home .info {
+      display: none;
+  }
+  p.small{
+    color: #aaa;
+    font-size: .9em;
+  }
+  #jqt #logo{
+    min-height: 30px;
+    text-align: center;
+
+  }
